@@ -1,0 +1,21 @@
+PROGRAM:
+
+public class Myself {
+
+	public static void main(String[] args) {		System.out.println("Name    = Jaydip Prakash Patil");
+
+		System.out.println("Address = Shivaji Chowk, Pen, Raigad");
+
+		System.out.println("Mobile  = 8087573840");
+
+	}
+
+}
+
+OUTPUT:
+
+Name    = Jaydip Prakash Patil
+
+Address = Shivaji Chowk, Pen, Raigad
+
+Mobile  = 8087573840
