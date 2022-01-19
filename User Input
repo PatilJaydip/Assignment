@@ -1,0 +1,91 @@
+PROGRAM:
+
+import java.util.*;
+
+ 
+
+ class Info {
+
+	public static void main(String args[]) {		Scanner sc=new Scanner(System.in);
+
+		String name;
+
+		String addr;
+
+		String hob;
+
+		double perc;
+
+		char gender;
+
+		System.out.println("Enter your firstname ");
+
+		name= sc.next();
+
+		System.out.println("Enter your Address");
+
+		addr = sc.nextLine();
+
+		System.out.println("Enter your gender");        gender =sc.next().charAt(0);
+
+		System.out.println("Enter your percentage");
+
+		perc = sc.nextDouble();
+
+		System.out.println("Enter your hobbies");
+
+		hob = sc.nextLine();
+
+		System.out.println("================================");
+
+		System.out.println("Name       =  "+name);
+
+		System.out.println("Address    =  "+addr);
+
+		System.out.println("Gender     =  "+gender);
+
+		System.out.println("Percentage =  "+perc);
+
+		System.out.println("Hobbies    =  "+hob);
+
+		
+
+		
+
+	}
+
+}
+
+OUTPUT:
+
+Enter your firstname
+
+Jaydip
+
+Enter your Address
+
+M G Road, pune
+
+Enter your gender
+
+M
+
+Enter your percentage
+
+77.63
+
+Enter your hobbies
+
+reading, playing, drawing
+
+================================
+
+Name       =  Jaydip
+
+Address    =  M G Road, pune
+
+Gender     =  M
+
+Percentage =  77.63
+
+Hobbies    =  reading, playing, drawing
