@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class rect{
+
+	public static void main(String[] args) {		Scanner sc =new Scanner(System.in);
+
+		double l, b, area, peri;
+
+		System.out.println("Enter the lenght of rectangle in meter");
+
+		l =sc.nextDouble();
+
+		System.out.println("Enter the breadth of rectangle in meter");
+
+		b =sc.nextDouble();
+
+		area = l*b;
+
+		peri = 2*(l+b);
+
+		System.out.println("Area = "+area +"sq.m");
+
+		System.out.println("perimeter = "+peri +"m");
+
+		
+
+	}
+
+}
+
+OUTPUT:
+
+Enter the lenght of rectangle in meter
+
+10
+
+Enter the breadth of rectangle in meter
+
+8
+
+Area = 80.0sq.m
+
+perimeter = 36.0m
