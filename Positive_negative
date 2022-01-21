@@ -1,0 +1,60 @@
+PROGRAM:
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {		int num;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the number");
+
+		num = sc.nextInt();
+
+		if(num <0)
+
+		{
+
+			System.out.println("Number is negative ");
+
+		}
+
+		else if(num>0)
+
+		{
+
+			System.out.println("Number is positive");
+
+		}
+
+		else 
+
+		{
+
+			System.out.println("Number is neither positive nor negative");
+
+		}
+
+	}
+
+}
+
+OUTPUT:
+
+Enter the number
+
+6
+
+Number is positive
+
+Enter the number 
+
+-6
+
+Number is negative
+
+Enter the number 
+
+0
+
+Number is neither negative nor positive
