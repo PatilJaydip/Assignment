@@ -1,0 +1,273 @@
+PROGRAM:
+
+import java.util.*;
+
+public class nested_condition{
+
+	public static void main(String[] args) {		int val ;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Please Enter yout choice");
+
+		System.out.println("1.Even/ Odd");
+
+		System.out.println("2.Greater from 3 number ");
+
+		System.out.println("3.Vowel or not");
+
+		System.out.println("4. Day from number");
+
+		
+
+		val = sc.nextInt();
+
+		switch(val)
+
+		{
+
+		case 1:
+
+			int num;
+
+			System.out.println("Enter the number ");
+
+			num = sc.nextInt();
+
+			if(num%2==0)
+
+			{
+
+				System.out.println("The number " +num +"is Even");
+
+			}
+
+			else
+
+			{
+
+				System.out.println("The number " +num +" is Odd");
+
+			}
+
+			break;
+
+			
+
+		case 2:
+
+			int n1, n2, n3;
+
+			System.out.println("Enter the first number");
+
+			n1 = sc.nextInt();
+
+			System.out.println("Enter the second number");
+
+			n2 = sc.nextInt();
+
+			System.out.println("Enter the third number");
+
+			n3 = sc.nextInt();
+
+			if ((n1>n2)&&(n1>n3))
+
+			{
+
+				System.out.println("greater number is " +n1);
+
+			}
+
+			else if ((n2>n1)&&(n2>n3))
+
+			{
+
+				System.out.println("greater number is " +n2);
+
+			}
+
+			else if ((n3>n1)&&(n3>n2))
+
+			{
+
+				System.out.println("greater number is " +n3);
+
+			}
+
+			break;
+
+			
+
+		case 3:
+
+			char c;
+
+			System.out.println("Enter the character");
+
+			c = sc.next().charAt(0);
+
+			switch(c)
+
+			{
+
+				case 'a':
+
+				case 'e':
+
+				case 'i':
+
+				case 'o':
+
+				case 'u':
+
+					System.out.println("The char " +c +" is vowel");
+
+					break;
+
+				default:
+
+					System.out.println("The char " +c +" is not vowel");
+
+			}
+
+			break;
+
+			
+
+		case 4:
+
+			int no;
+
+			System.out.println("Enter the number of your choice from 1 to 7");
+
+			no = sc.nextInt();
+
+			switch(no)
+
+			{
+
+				case 1:
+
+					System.out.println("Monday");
+
+					break;
+
+				case 2:
+
+					System.out.println("Tuesday");
+
+					break;
+
+				case 3:
+
+					System.out.println("Wednesday");
+
+					break;
+
+				case 4:
+
+					System.out.println("Thursday");
+
+					break;
+
+				case 5:
+
+					System.out.println("Friday");
+
+					break;
+
+				case 6:
+
+					System.out.println("Saturday");
+
+					break;
+
+				case 7:
+
+					System.out.println("Sunday");
+
+					break;
+
+				default:
+
+					System.out.println("Enter the valid number");
+
+			}
+
+			
+
+		
+
+		break;
+
+		
+
+		default:
+
+			System.out.println("Enter Valid value");
+
+			break;
+
+			
+
+		}
+
+	}
+
+}
+
+OUTPUT: 
+
+Please Enter yout choice
+
+1.Even/ Odd
+
+2.Greater from 3 number
+
+3.Vowel or not
+
+4. Day from number
+
+1
+
+Enter the number
+
+13
+
+The number 13 is Odd
+
+2
+
+Enter the first number
+
+13
+
+Enter the second number
+
+15
+
+Enter the third number
+
+18
+
+greater number is 18
+
+3
+
+Enter the character
+
+o
+
+The char o is vowel
+
+4
+
+Enter the number of your choice from 1 to 7
+
+4
+
+Thursday
+
+5
+
+Enter Valid value
