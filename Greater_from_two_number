@@ -1,0 +1,77 @@
+PROGRAM:
+
+import java.util.*;
+
+public class greater{
+
+	public static void main(String[] args) {		Scanner sc = new Scanner(System.in);
+
+		int n1, n2;
+
+		System.out.println("Enter the first number");
+
+		n1 = sc.nextInt();
+
+		System.out.println("Enter the second number");
+
+		n2 = sc.nextInt();
+
+		if (n1<n2)
+
+		{
+
+			System.out.println(n2 +"is greater ");
+
+		}
+
+		else if(n2<n1)
+
+		{
+
+			System.out.println(n1 +"is greater");
+
+		}
+
+		else
+
+		{
+
+			System.out.println("Both numner are same ");
+
+		}
+
+	}
+
+}
+
+OUTPUT:
+
+Enter the first number
+
+15
+
+Enter the second number 
+
+17
+
+17 is greater
+
+Enter the first number
+
+17
+
+Enter the second number
+
+15
+
+17 is greater
+
+Enter the first number
+
+15
+
+Enter the second number 
+
+15
+
+Both number are same 
